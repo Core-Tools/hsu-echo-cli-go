@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	coreControl "github.com/ai-core-tools/hsu-core/go/control"
-	coreDomain "github.com/ai-core-tools/hsu-core/go/domain"
-	coreLogging "github.com/ai-core-tools/hsu-core/go/logging"
-	"github.com/ai-core-tools/hsu-echo-cli-go/internal/logging"
-	echoControl "github.com/ai-core-tools/hsu-echo/go/control"
-	echoLogging "github.com/ai-core-tools/hsu-echo/go/logging"
+	coreControl "github.com/core-tools/hsu-core/go/control"
+	coreDomain "github.com/core-tools/hsu-core/go/domain"
+	coreLogging "github.com/core-tools/hsu-core/go/logging"
+	"github.com/core-tools/hsu-echo-cli-go/internal/logging"
+	echoControl "github.com/core-tools/hsu-echo/go/control"
+	echoLogging "github.com/core-tools/hsu-echo/go/logging"
 
 	flags "github.com/jessevdk/go-flags"
 )
